@@ -7,17 +7,17 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.getenv("API_ID", 12345))
-    API_HASH = os.getenv("API_HASH", "")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "")
+    API_ID = int(os.getenv("API_ID", "28993371"))
+    API_HASH = os.getenv("API_HASH", "54cd199b7c1921191390334c759b6ab8")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "5984794258:AAHbwDBduYtzM9QrIWRVTwKp6-e0elrIWhE")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "MdiskSearchRobot")
-    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "")
-    CHANNEL_ID = int(os.getenv("CHANNEL_ID", -100))
-    BOT_USERNAME = os.getenv("BOT_USERNAME")
-    BOT_OWNER = int(os.getenv("BOT_OWNER"))
-#    OWNER_USERNAME = os.getenv("OWNER_USERNAME")
-    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL")
-#    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
+    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1AZWarzkBu0G6GF-L7v6IeDgEa8YEGnXGs73j3W9Hcr8RcHZGfHNnOSlUKHvjbi5y1DE3Ah-7zTuStfYsJUU-jnkJdAUgxOk3vGmg14ereJtkqFwwKH6X3p2DAnTuT6KDCKjoO-1Potfaajuz1W-2EjTfEvL-MAsb2uNwJF0sdEqJJTl5gi4vBe-T28j9_h01azBoNgYwIN7jJfL2oYLXA5YJQlHQpPrURN-dGUtnPoIxisSdZ97_eD8UhxmF1dFxSJHiIzYfi309x4iGLujg9DwEX7kq_Poe7QMtwyxdkcCbxySCTvGmpOYmBAOlczmAMvI7IsEOP-wmwXBq1mfRnD3Abykxylg=")
+    CHANNEL_ID = int(os.getenv("CHANNEL_ID", -1001794585747))
+    BOT_USERNAME = os.getenv("BOT_USERNAME", "MSB5Bot")
+    BOT_OWNER = int(os.getenv("BOT_OWNER", "5798033709"))
+#    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "AadiBotz")
+    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "adibckp")
+#    GROUP_USERNAME = os.getenv("GROUP_USERNAME", "adigrup")
     START_MSG = os.getenv("START_MSG", '''Hᴇʏ! {} 😅,
 
 Mᴇ! Mᴏᴠɪᴇ Sᴇᴀʀᴄʜ Bᴏᴛ.🤖
@@ -34,15 +34,15 @@ Mᴀᴅᴇ Wɪᴛʜ ❤ Bʏ
 
 ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇʀᴇ ʏᴏᴜʀ ʟɪɴᴋꜱ,
 ꜰᴏʀ ᴍᴏʀᴇ ɪɴꜰᴏ ᴄʟɪᴄᴋ ᴏɴ ʜᴇʟᴘ ✅''')
-    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", None)
-    DATABASE_URL = os.getenv("DATABASE_URL", "")
-    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", ""))
+    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1001800750914")
+    DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://MSB:MSB@cluster0.jgxfww1.mongodb.net/?retryWrites=true&w=majority")
+    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001894188186"))
     RESULTS_COUNT = int(os.getenv("RESULTS_COUNT", 5))
     BROADCAST_AS_COPY = os.getenv("BROADCAST_AS_COPY", "True")
-    UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "")
-    FORCE_SUB = os.getenv("FORCE_SUB", "False")
-    AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", 1800))
-    MDISK_API = os.getenv("MDISK_API", "12334")
+    UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "adiupdt")
+    FORCE_SUB = os.getenv("FORCE_SUB", "True")
+    AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", 180))
+    MDISK_API = os.getenv("MDISK_API", "YICohyyM5Or1Nevj0joi")
     VERIFIED_TIME  = int(os.getenv("VERIFIED_TIME", "1"))
     ABOUT_BOT_TEXT = os.getenv("ABOUT_TEXT", '''I ᴏɴʟʏ ꜱʜᴀʀᴇ ᴛʜᴇ ᴘᴏꜱᴛ ꜰʀᴏᴍ ᴘᴇᴏᴘʟᴇ'ꜱ ᴄʜᴀɴɴᴇʟ! ᴡʜᴏ ᴍᴀᴅᴇ ᴍᴇ ᴀᴅᴍɪɴ ɪɴ ᴛʜᴀᴛ ᴄʜᴀɴɴᴇʟ, i ᴅᴏ ɴᴏᴛ ꜱᴛᴏʀᴇ ᴀɴʏ ꜰɪʟᴇꜱ ᴏʀ ᴛᴇxᴛ ɪɴ  ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ.✅
 
